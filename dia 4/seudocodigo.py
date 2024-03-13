@@ -41,3 +41,15 @@ preguntar: si numero 1 > numero 2 y numero 1 > mayor 3
          si-- entonces numero 2 es mayor 
          no-- entonces numero 3 es mayor
 """
+
+"""
+calcular el promedio de 3 notas 
+
+inicio 
+    leer nota 1
+    leer nota 2
+    leer nota 3
+    (nota 1+nota 2+ nota 3)/3
+    mostrar nota
+
+"""

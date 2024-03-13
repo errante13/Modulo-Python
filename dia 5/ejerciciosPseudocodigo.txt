@@ -1,0 +1,26 @@
+
+************ EJERCICIO 2 *************
+
+INICIO
+    leer base 
+    leer altura 
+    area =(base*altura)/2
+    mostrar area
+FIN
+
+************ EJERCICIO 3 *************
+
+INICIO
+    leer radio 
+    area =Pi*radio^2
+    mostrar area
+FIN
+
+************ EJERCICIO 6 *************
+
+INICIO
+    leer Diagonal_mayor
+    leer Diagonal_menor
+    area =(Diagonal_mayor*Diagonal_menor)/2
+    mostrar area
+FIN

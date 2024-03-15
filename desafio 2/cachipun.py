@@ -5,9 +5,13 @@ programa en Python que permite jugar al cachipún en contra del computador.
 """
 #import libreria random
 import random
+# import de argv para uso de linea de comando
+from sys import argv
 
-seleccion_usuario=input("ingrese piedra, papel o tijeras para comenzar a juegar \n").lower()
 
+#seleccion_usuario=input("ingrese piedra, papel o tijeras para comenzar a juegar \n").lower()
+#entrega de datos por linea de comandos 
+seleccion_usuario=argv[1]
 #validación de datos del usuario
 if seleccion_usuario =="piedra":
     print(f"tu jugaste {seleccion_usuario}")

@@ -9,6 +9,9 @@ herramienta que permita determinar el estado nutricional de una persona.
 peso_persona=float(input("ingrese el peso de la persona en KG\n"))
 altura_persona=float(input("ingrese la altura de la persona en centimetros y distinto de cero (0) \n"))/100
 
+if altura_persona == 0:
+    print("la altura no puede ser igual a cero")
+    
 #CALCULO IMC
 imc=round(peso_persona/pow(altura_persona,2),2)
 

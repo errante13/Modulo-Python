@@ -45,37 +45,37 @@ else:
     # piedra tijeras    
     if computador =="piedra"and seleccion_usuario=="tijera":
         print(f"El computador eligió: {computador}\n")
-        #print(f"Tu jusgaste {seleccion_usuario}\n ")
+        print(f"Tu jusgaste {seleccion_usuario}\n ")
         print("PERDISTE piedra rompe tijeras\n")
     #papel tijeras   
     elif computador =="papel"and seleccion_usuario=="piedra":
         print(f"El computador eligió: {computador}\n")
-        #print(f"Tu jusgaste {seleccion_usuario}\n ")
+        print(f"Tu jusgaste {seleccion_usuario}\n ")
         print("PERDISTE papel envuelve a piedra\n")
     #tijeras papel   
     elif computador =="tijera" and seleccion_usuario=="papel":
         print(f"El computador eligió: {computador}\n")
-        #print(f"Tu jusgaste {seleccion_usuario}\n ")
+        print(f"Tu jusgaste {seleccion_usuario}\n ")
         print("PERDISTE tijeras cortan papel\n")
     #piedra papel
     elif computador =="piedra"and seleccion_usuario=="papel":
         print(f"El computador eligió: {computador}\n")
-        #print(f"Tu jusgaste {seleccion_usuario}\n")
+        print(f"Tu jusgaste {seleccion_usuario}\n")
         print("GANASTE papel envuelve a piedra\n")
     #tijera piedra
     elif computador =="tijera"and seleccion_usuario=="piedra":
         print(f"El computador eligió: {computador}\n")
-        #print(f"Tu jusgaste {seleccion_usuario}\n ")
+        print(f"Tu jusgaste {seleccion_usuario}\n ")
         print("GANASTE piedra rompe tijera\n")
     #papel piedra
     elif computador =="papel"and seleccion_usuario=="tijera":
         print(f"El computador eligió: {computador}\n")
-        #print(f"Tu jusgaste {seleccion_usuario}\n ")
+        print(f"Tu jusgaste {seleccion_usuario}\n ")
         print("GANASTE tijera cortan papel\n")
     #caso de empate
     elif computador==seleccion_usuario:
         print(f"El computador eligió: {computador}\n")
-        #print(f"Tu jusgaste {seleccion_usuario}\n ")
+        print(f"Tu jusgaste {seleccion_usuario}\n ")
         print("es un EMPATE \n")
 
 print("fin del juego")    

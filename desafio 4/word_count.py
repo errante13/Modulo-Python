@@ -1,7 +1,7 @@
 # from sys import argv
 # argumento = argv[1]
 
-with open(f"Modulo-Python/desafio4/lorem_ipsum.txt", "r") as file:
+with open("Modulo-Python/desafio 4/lorem_ipsum.txt", "r") as file:
     texto=file.read()
     
 print(" -------- INICIO PROGRAMA ------- \n")
